@@ -1,6 +1,6 @@
 {
 
-    "name": "paymill/paymill",
+    "name": "mage2pro/paymill-sdk",
     "type": "library",
     "description": "Paymill PHPLib",
     "keywords": ["payment", "provider"],
