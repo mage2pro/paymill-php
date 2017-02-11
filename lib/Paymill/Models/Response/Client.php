@@ -97,7 +97,7 @@ class Client extends Base
      * @param \Paymill\Models\Response\Payment[] $payment
      * @return \Paymill\Models\Response\Client
      */
-    public function setPayment($payment)
+    public function setPayment(array $payment)
     {
         $this->_payment = $payment;
         return $this;
