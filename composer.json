@@ -1,22 +1,20 @@
 {
-
     "name": "mage2pro/paymill-sdk",
+    "version": "v4.4.4",
     "type": "library",
-    "description": "Paymill PHPLib",
+    "description": "Paymill PHP SDK with Mage2.PRO corrections",
     "keywords": ["payment", "provider"],
     "license": "MIT",
-    "homepage": "https://www.paymill.de",
+    "homepage": "https://mage2.pro/c/extensions/paymill",
     "authors": [
-        {
-            "name": "Paymill GmbH",
-            "homepage": "https://www.paymill.de"
-        }
-    ],
-    "autoload": {
-        "psr-0": {
-            "Paymill": "lib/"
-        }
-    }
-
+        {"name": "Paymill GmbH", "homepage": "https://www.paymill.de"}
+		,{
+			"name": "Dmitry Fedyuk",
+			"email": "admin@mage2.pro",
+			"homepage": "https://mage2.pro/users/dmitry_fedyuk",
+			"role": "Developer"
+		}
+	],
+    "autoload": {"psr-0": {"Paymill": "lib/"}}
 }
 

@@ -90,7 +90,11 @@ class Client extends Base
 
     /**
      * Sets the payment list stored in the client model
-     * @param \Paymill\Models\Response\Payment $payment
+	 * 2017-02-11
+	 * «A PHPDoc type for the $payment argument
+	 * of the \Paymill\Models\Response\Client::setPayment() method is wrong»:
+	 * https://github.com/paymill/paymill-php/issues/140
+     * @param \Paymill\Models\Response\Payment[] $payment
      * @return \Paymill\Models\Response\Client
      */
     public function setPayment($payment)
