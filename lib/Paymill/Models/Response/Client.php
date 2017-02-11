@@ -78,7 +78,10 @@ class Client extends Base
 
     /**
      * Returns a list of payment objects associated with this client
-     * @return \Paymill\Models\Response\Payment
+	 * 2017-02-11
+	 * «A PHPDoc result type for the \Paymill\Models\Response\Client::getPayment() method is wrong»
+	 * https://github.com/paymill/paymill-php/issues/139
+     * @return \Paymill\Models\Response\Payment[]
      */
     public function getPayment()
     {
